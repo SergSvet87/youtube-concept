@@ -8,7 +8,7 @@ body {
   font-weight: 400;
 }
 
-/*  */
+/* Шапка начало */
 .header {
   display: flex;
   align-items: center;
@@ -180,7 +180,7 @@ body {
 /* Боковое меню конец */
 
 /* Основной контент начало */
-.channel{
+.channel {
   position: relative;
   margin-bottom: 50px;
 }
@@ -208,11 +208,10 @@ body {
 
 .video-card {
   display: block;
-  margin-right: 40px;  
+  margin-right: 40px;
 }
 
 .video-thumb {
-  width: 250px;
   height: 150px;
   overflow: hidden;
   border-radius: 14px;
@@ -276,8 +275,8 @@ body {
 
 .slider-buttons {
   position: absolute;
-  right: 9%;
-  top: 0;
+  right: 12%;
+  top: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -287,10 +286,12 @@ body {
 .channel-button {
   cursor: pointer;
 }
+/* Канал конец */
 
-
-.recommended{
+/* Рекомендации начало */
+.recommended {
   position: relative;
+  margin-bottom: 50px;
 }
 
 .recommended-title {
@@ -306,7 +307,7 @@ body {
 
 .recommended-slider-buttons {
   position: absolute;
-  right: 9%;
+  right: 12%;
   top: 0;
   display: flex;
   align-items: center;
@@ -315,12 +316,11 @@ body {
 }
 
 .recommended-video-card {
-  width: 540px;
+  display: block;
   margin-right: 40px;
 }
 
 .recommended-video-thumb {
-  width: 540px;
   height: 250px;
   overflow: hidden;
   border-radius: 14px;
@@ -332,3 +332,92 @@ body {
   height: 250px;
   object-fit: cover;
 }
+/* Рекомендации конец */
+
+/* Еда и напитки начало */
+.channel-food {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.channel-food-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.channel-food-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.food-title {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202c;
+}
+
+.channel-food-title-text {
+  margin: 0 20px;
+}
+
+.channel-food-subtitle-text {
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+}
+
+.channel-food-btn {
+  margin-right: 20%;
+}
+
+.food-btn-submit {
+  width: 155px;
+  height: 40px;
+  background: #ff0000;
+  border-radius: 20px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.channel-food-slider-buttons {
+  position: absolute;
+  right: 12%;
+  top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66px;
+}
+
+.food-video-card {
+  display: block;
+  margin-right: 40px;
+}
+
+.food-video-thumb {
+  height: 150px;
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+
+.food-thumbnail {
+  width: 250px;
+  height: 150px;
+  object-fit:cover;
+}
+/* Еда и напитки конец */
