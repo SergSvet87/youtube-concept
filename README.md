@@ -6,3 +6,4 @@
 - CSS
 - Normalaize.css
 - SVG Sprites
+- Swiper-js
