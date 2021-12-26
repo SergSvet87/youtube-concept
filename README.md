@@ -7,3 +7,4 @@
 - Normalaize.css
 - SVG Sprites
 - Swiper-js
+- Fonts.google
